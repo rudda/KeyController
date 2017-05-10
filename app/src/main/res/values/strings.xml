@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">KeyController</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_adminitrador">Adminitrador</string>
+    <string name="title_activity_adm">AdmActivity</string>
+    <string name="title_activity_choose_user">ChooseUser</string>
+    <string name="title_activity_cadastrar_aluno">CadastrarAluno</string>
+    <string name="title_activity_continue_aluno">ContinueAluno</string>
+    <string name="title_activity_login_adm">LoginAdm</string>
+    <string name="title_activity_aloca_lab">AlocaLab</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_cadastra_professor">CadastraProfessor</string>
+    <string name="title_activity_cadastrar_guarda">CadastrarGuarda</string>
+    <string name="title_activity_cad_professor">CadProfessor</string>
+    <string name="title_activity_seach">Seach</string>
+    <string name="title_activity_all_user">AllUser</string>
+    <string name="title_activity_all_prof">AllProf</string>
+    <string name="title_activity_login_guarda">LoginGuarda</string>
+    <string name="title_activity_all_lab">AllLab</string>
+    <string name="title_activity_guarda">GuardaActivity</string>
+    <string name="title_activity_update_lab">UpdateLab</string>
+    <string name="title_activity_add_user_to_lab">AddUserToLab</string>
+    <string name="title_activity_realiza_checkin">realizaCheckin</string>
+    <string name="title_activity_chaves_emprestadas">ChavesEmprestadas</string>
+    <string name="title_activity_activity_checkin">ActivityCheckin</string>
+    <string name="title_activity_activity_checkout">ActivityCheckout</string>
+</resources>

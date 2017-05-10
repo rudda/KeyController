@@ -1,0 +1,35 @@
+package com.developer.ruddbeltrao.keycontroller.Enum;
+
+/**
+ * Created by Dev Aux on 08/01/2016.
+ */
+public enum TypesOperations
+{
+    INSERIR_ALUNO,
+    INSERIR_PROF,
+    INSERIR_GUARDA,
+    INSERIR_SERVIDOR,
+    INSERIR_CHECKIN,
+    INSERIR_CHECKOUT,
+    INSERIR_LAB,
+
+    ATUALIZAR_ALUNO,
+    ATUALIZAR_PROF,
+    ATUALIZAR_GUARDA,
+    ATUALIZAR_SERVIDOR,
+    ATUALIZAR_CHECKIN,
+    ATUALIZAR_CHECKOUT,
+    ATUALIZAR_LAB,
+
+    RECUPERAR_ALUNO,
+    RECUPERAR_PROF,
+    RECUPERAR_GUARDA,
+    RECUPERAR_SERVIDOR,
+    RECUPERAR_CHECKIN,
+    RECUPERAR_CHECKOUT,
+    RECUPERAR_LAB;
+
+
+
+
+    }

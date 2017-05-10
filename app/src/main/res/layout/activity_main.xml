@@ -1,0 +1,72 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:background="#ffffff"
+    tools:context=".Activities.MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="50dp"
+        android:gravity="center"
+        >
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:background="#00ff00"
+            android:src="@drawable/adm"
+            android:id="@+id/imv_adm"
+
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Administrador"
+            android:textSize="40dp"
+            android:padding="20dp"
+            android:textStyle="bold"
+            />
+
+        </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="50dp"
+
+        android:gravity="center"
+        >
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:src="@drawable/guarda_ico"
+            android:id="@+id/imv_guarda"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Guarda"
+            android:textSize="40dp"
+            android:padding="20dp"
+            android:textStyle="bold"
+            />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

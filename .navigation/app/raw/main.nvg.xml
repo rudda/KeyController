@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<navigationModel
+  ns = "http://schemas.android.com?import=com.android.tools.idea.editors.navigation.model.*">
+  <locations  
+    class = "java.util.ArrayList">
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.developer.ruddbeltrao.keycontroller.Activities.AlocaLab"/>
+      <point      
+        x = "500"      
+        y = "5200"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.developer.ruddbeltrao.keycontroller.Activities.CadastrarGuarda"/>
+      <point      
+        x = "600"      
+        y = "268"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.MenuState"      
+        className = "com.developer.ruddbeltrao.keycontroller.Activities.CadastrarGuarda"/>
+      <point      
+        x = "3660"      
+        y = "268"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.developer.ruddbeltrao.keycontroller.Activities.CadastraProfessor"/>
+      <point      
+        x = "500"      
+        y = "1800"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.MenuState"      
+        className = "com.developer.ruddbeltrao.keycontroller.Activities.CadastraProfessor"/>
+      <point      
+        x = "3560"      
+        y = "1800"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.developer.ruddbeltrao.keycontroller.Activities.ChooseUser"/>
+      <point      
+        x = "896"      
+        y = "5792"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.developer.ruddbeltrao.keycontroller.Activities.Adminitrador"/>
+      <point      
+        x = "552"      
+        y = "5248"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.developer.ruddbeltrao.keycontroller.Activities.ContinueAluno"/>
+      <point      
+        x = "600"      
+        y = "5300"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.developer.ruddbeltrao.keycontroller.Activities.CadastrarAluno"/>
+      <point      
+        x = "648"      
+        y = "5348"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.developer.ruddbeltrao.keycontroller.Activities.CadProfessor"/>
+      <point      
+        x = "500"      
+        y = "3500"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.MenuState"      
+        className = "com.developer.ruddbeltrao.keycontroller.Activities.CadProfessor"/>
+      <point      
+        x = "3560"      
+        y = "3500"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.developer.ruddbeltrao.keycontroller.Activities.MainActivity"/>
+      <point      
+        x = "700"      
+        y = "5400"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.developer.ruddbeltrao.keycontroller.Activities.LoginAdm"/>
+      <point      
+        x = "750"      
+        y = "5450"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.developer.ruddbeltrao.keycontroller.Activities.AdmActivity"/>
+      <point      
+        x = "848"      
+        y = "5548"/>
+    </statePointEntry>
+  </locations>
+</navigationModel>

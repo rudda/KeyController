@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cadastrar Senha:"
+        android:textSize="40dp"
+        android:gravity="center_horizontal"
+        android:padding="30dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:textSize="40dp"
+        android:padding="20dp"
+        android:layout_margin="30dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ok"
+            android:id="@+id/popup_ok"
+            android:textSize="40dp"
+            android:paddingLeft="60dp"
+            android:paddingRight="60dp"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            android:layout_marginRight="100dp"
+            android:layout_marginTop="20dp"
+            android:textColor="#ffffff"
+            android:background="@color/btok"
+
+            />
+
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="cancelar"
+            android:textSize="40dp"
+            android:paddingLeft="60dp"
+            android:paddingRight="60dp"
+            android:paddingTop="20dp"
+            android:background="#ff0000"
+            android:textColor="#ffffff"
+            android:id="@+id/popup_cancel"
+            android:paddingBottom="20dp"
+            android:layout_marginTop="20dp"
+            />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

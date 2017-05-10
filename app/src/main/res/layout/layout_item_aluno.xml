@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="30dp"
+        android:id="@+id/mll">
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/aluno"
+
+            android:id="@+id/imageAlunoItem" />
+
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rudda Silva Beltrao Brito"
+                android:textSize="40dp"
+                android:padding="20dp"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                style="@style/AppTheme"
+                android:id="@+id/nomeAlunoItem" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="21202795, Sistemas de Informação"
+                android:textSize="40dp"
+                android:padding="20dp"
+                android:textStyle="italic"
+                style="@style/AppTheme"
+                android:textColor="#000000"
+                android:id="@+id/subTitleAlunoitem" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

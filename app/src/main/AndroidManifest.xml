@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.developer.ruddbeltrao.keycontroller" >
+
+        <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+        <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+
+        <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE"></uses-permission>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/key_ico"
+        android:label="@string/app_name"
+        android:theme="@style/Theme2" >
+        <activity
+            android:name=".Activities.MainActivity"
+            android:label="@string/app_name" >
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+           <!-- here intent filtrer main-->
+
+        </activity>
+        <activity
+            android:name=".Activities.AdmActivity"
+            android:label="@string/title_activity_adm" >
+        </activity>
+        <activity
+            android:name=".Activities.ChooseUser"
+            android:label="@string/title_activity_choose_user" >
+        </activity>
+        <activity
+            android:name=".Activities.CadastrarAluno"
+            android:label="@string/title_activity_cadastrar_aluno"
+            android:windowSoftInputMode="stateAlwaysHidden" >
+        </activity>
+        <activity
+            android:name=".Activities.ContinueAluno"
+            android:label="@string/title_activity_continue_aluno"
+            android:windowSoftInputMode="stateAlwaysHidden" >
+        </activity>
+        <activity
+            android:name=".Activities.LoginAdm"
+            android:label="@string/title_activity_login_adm"
+            android:windowSoftInputMode="stateAlwaysHidden" >
+        </activity>
+        <activity
+            android:name=".Activities.AlocaLab"
+            android:label="@string/title_activity_aloca_lab" >
+        </activity>
+        <activity
+            android:name=".Activities.CadastraProfessor"
+            android:label="@string/title_activity_cadastra_professor"
+            android:windowSoftInputMode="stateAlwaysHidden" >
+        </activity>
+        <activity
+            android:name=".Activities.CadastrarGuarda"
+            android:label="@string/title_activity_cadastrar_guarda"
+            android:windowSoftInputMode="stateAlwaysHidden" >
+        </activity>
+        <activity
+            android:name=".Activities.CadProfessor"
+            android:label="@string/title_activity_cad_professor"
+            android:windowSoftInputMode="stateAlwaysHidden" >
+        </activity>
+        <activity
+            android:name=".Activities.Seach"
+            android:label="@string/title_activity_seach" >
+        </activity>
+        <activity
+            android:name=".Activities.AllUser"
+            android:label="@string/title_activity_all_user" >
+        </activity>
+        <activity
+            android:name=".Activities.AllProf"
+            android:label="@string/title_activity_all_prof" >
+        </activity>
+        <activity
+            android:name=".Activities.LoginGuarda"
+            android:label="@string/title_activity_login_guarda"
+            android:windowSoftInputMode="stateAlwaysHidden" >
+        </activity>
+        <activity
+            android:name=".Activities.AllLab"
+            android:label="@string/title_activity_all_lab" >
+        </activity>
+        <activity
+            android:name=".Activities.GuardaActivity"
+            android:label="@string/title_activity_guarda" >
+        </activity>
+        <activity
+            android:name=".Activities.UpdateLab"
+            android:label="@string/title_activity_update_lab"
+            android:windowSoftInputMode="stateAlwaysHidden" >
+        </activity>
+        <activity
+            android:name=".Activities.AddUserToLab"
+            android:label="@string/title_activity_add_user_to_lab" >
+        </activity>
+        <activity
+            android:name=".Activities.realizaCheckin"
+            android:label="@string/title_activity_realiza_checkin" >
+        </activity>
+        <activity
+            android:name=".Activities.realizaCheckout"
+            android:label="Checkout" >
+        </activity>
+        <activity
+            android:name=".Activities.ChavesEmprestadas"
+            android:label="@string/title_activity_chaves_emprestadas"
+            android:theme="@style/Theme.AppCompat.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".Activities.ActivityCheckin"
+            android:label="@string/title_activity_activity_checkin" >
+        </activity>
+        <activity
+            android:name=".Activities.ActivityCheckout"
+            android:label="@string/title_activity_activity_checkout" >
+        </activity>
+        <activity android:name=".Activities.TestVolley" >
+
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,130 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
+    android:background="#ffffff"
+    android:id="@+id/lll">
+
+
+    <TextView
+        android:layout_marginTop="100dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="SENHA OU CPF INCORRETOS"
+        android:textSize="30dp"
+
+        android:textColor="#ff0000"
+        android:layout_marginLeft="500dp"
+        android:id="@+id/msgERROGuarda" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:weightSum="1"
+
+
+        >
+
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:src="@drawable/guarda_ico"
+            android:layout_weight="0.34" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/linear_login"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+
+            android:layout_height="wrap_content"
+            android:layout_weight="0.49">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="CPF:"
+                android:textSize="30dp"
+                />
+
+            <EditText
+                android:layout_width="468dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:textSize="30dp"
+                android:id="@+id/etCPFGuarda"
+                />
+
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Senha:"
+                android:textSize="30dp"
+                android:layout_marginTop="10dp"
+                />
+
+            <EditText
+                android:layout_width="468dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:textSize="30dp"
+                android:id="@+id/etSehaGuarda"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        >
+
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Entrar"
+            android:textSize="40dp"
+            android:padding="20dp"
+            android:background="#2eae43"
+            android:textColor="#ffffff"
+            android:id="@+id/btEntrarGuarda"
+            android:layout_marginLeft="140dp"
+            android:layout_marginRight="80dp"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sair"
+            android:textSize="40dp"
+            android:paddingLeft="50dp"
+            android:paddingRight="50dp"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            android:onClick="close"
+            android:background="#ff0000"
+            android:textColor="#ffffff"
+            android:id="@+id/btcancelGuarda"
+
+            />
+
+
+    </LinearLayout>
+
+
+    </LinearLayout>

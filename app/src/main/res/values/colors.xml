@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="myColorBlack">#000000</color>
+    <color name="myColorPrimary">#009688</color>
+    <color name="myColorPrimaryDark">#F57C00</color>
+    <color name="myColorAcent">#009688</color>
+    <color name="mdtp_accent_color">#009688</color>
+    <color name="mdtp_accent_color_dark">#00796b</color>
+    <color name="btok">#2eae43</color>
+
+</resources>
