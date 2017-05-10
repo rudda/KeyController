@@ -1,6 +1,6 @@
 # KeyController
 Repositorio do projeto KeyController, um app para controle de empréstimos de chaves de Laboratorios do Instituto de Ciencias Exatas e tecnologia -ICET / UFAM. Projeto PACE, prof Me. Priscila Fernandes.
-# Sreem Shots
+# Captura de Tela
 
 ![img](https://raw.githubusercontent.com/rudda/KeyController/master/KeyController%20-%20sreenShots/img.png)
 ![img](https://raw.githubusercontent.com/rudda/KeyController/master/KeyController%20-%20sreenShots/img-1.png)
